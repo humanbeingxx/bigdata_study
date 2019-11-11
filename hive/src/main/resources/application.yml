@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    druid:
+      username: test
+      password: test1234
+      url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
